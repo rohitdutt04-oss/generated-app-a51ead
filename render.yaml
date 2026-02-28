@@ -1,0 +1,9 @@
+services:
+  web:
+    type: web
+    env: static
+    region: oregon
+    buildCommand: ''
+    startCommand: 'echo "Hello World"'
+    ports:
+    - 80:80
